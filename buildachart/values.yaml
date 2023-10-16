@@ -1,0 +1,10 @@
+image:
+  repository: "gcr.io/google-samples/hello-app@sha256:36c3b1525f681c3c96ffc06810cd4038f55baefd45aca2d01bab00f764501367"
+
+replicaCount: 1
+
+service:
+  port: 8080
+  targetPort: 8080
+  type: NodePort
+
