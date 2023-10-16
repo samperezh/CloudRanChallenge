@@ -27,7 +27,7 @@ To deploy and expose hello app using the Helm chart run the following commands f
 2.```helm install my-chart .```
 
 As my minikube uses Docker Desktop as driver, from new window run the command below. Note that it should output http:://**X**.  
-4.```minikube service buildachart-svc --url```
+4.```minikube service buildachart-service --url```
 
 Back to original window run, test the service.  
 5.```curl X```
