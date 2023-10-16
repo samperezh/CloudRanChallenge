@@ -10,7 +10,7 @@
 7. Push your helm chart to github and share the project link.
 
 ## Part 1: K8s Deployment yml files
-To deploy and expose hello app using the K8s Deployment yml files directly run the following commands from CloudRanChallenge/k8syml/.  
+To deploy and expose hello app using the K8s Deployment yml files directly run the following commands from the CloudRanChallenge/k8syml/ directory.  
 1. ```minikube start ```
 2. ```kubectl apply -f deployment.yml```
 3. ```kubectl apply -f service.yml```
@@ -22,7 +22,7 @@ Back to original window run, test the service.
 5. ```curl X```
 
 ## Part 2: Package and Redeploy hello app using Helm chart
-To deploy and expose hello app using the Helm chart run the following commands from CloudRanChallenge/buildachart/.  
+To deploy and expose hello app using the Helm chart run the following commands from the CloudRanChallenge/buildachart/ directory.    
 1.``` minikube start ```  
 2.``` helm install my-chart .```
 
