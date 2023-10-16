@@ -23,11 +23,11 @@ Back to original window run, test the service.
 
 ## Part 2: Package and Redeploy hello app using Helm chart
 To deploy and expose hello app using the Helm chart run the following commands from the CloudRanChallenge/buildachart/ directory.    
-1.``` minikube start ```  
-2.``` helm install my-chart .```
+1.```minikube start ```  
+2.```helm install my-chart .```
 
 As my minikube uses Docker Desktop as driver, from new window run the command below. Note that it should output http:://**X**.  
-4. ```minikube service buildachart-svc --url```
+4.```minikube service buildachart-svc --url```
 
 Back to original window run, test the service.  
-5. ```curl X```
+5.```curl X```
